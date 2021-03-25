@@ -5,9 +5,9 @@ import { Switch, Route } from 'react-router-dom'
 // Components
 import Home from './Home'
 import Menu from './Menu'
-import Nosotros from './Nosotros'
 // Import Css
 import './main.css'
+import About from './About'
 
 
 const Main = () => {
@@ -20,8 +20,8 @@ const Main = () => {
         <Route exact path="/menu">
           <Menu />
         </Route>
-        <Route exact path="/nosotros">
-          <Nosotros />
+        <Route exact path="/about">
+          <About />
         </Route>
       </Switch>
     </div>

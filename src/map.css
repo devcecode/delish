@@ -1,14 +1,14 @@
 .map {
   width: 100%;
   overflow: scroll;
-  margin-top: 1.5em;
+  margin-top: 1.75em;
 }
 .map::-webkit-scrollbar {
   display: none;
 }
 .my__map {
   border-radius: .4em;
-  width: 90%;
+  width: 95%;
   max-width: 1100px;
   height: 600px;
   margin: 0 auto;
@@ -16,7 +16,11 @@
 }
 @media(min-width: 760px) {
   .map {
-    width: 50%;
+    width: 47.5%;
     margin-top: 0;
+  }
+
+  .my__map {
+    width: 100%;
   }
 }

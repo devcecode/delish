@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import { Link } from 'react-router-dom'
+
 // Styles
 import './presentation.css'
 
@@ -36,6 +38,7 @@ const Presentation = () => {
     <div className="presentation">
       <div className="presentation__container">
         <div className="presentation__back">
+          <div className="presentation__back__color"></div>
           <div
             className="presentation__back__container"
             style={{
@@ -51,7 +54,7 @@ const Presentation = () => {
             <div className="presentation__description">
               <h1 className="presentation__title">Delish</h1>
               <p className="presentation__message">
-                Disfruta de una autentica, comida peruana!!!
+                Atrevete a disfrutar de la auténtica comida de los Dioses!!!
               </p>
               <div className="presentation__stars">
                 <StarIcon className="star__icon" />
@@ -85,10 +88,10 @@ const Presentation = () => {
                 </SwiperSlide>
               </Swiper>
               <div className="ir">
-                <a href="#">
+                <Link to="/menu">
                   Ver Menú
                   <ArrowForwardIcon className="arrow__for__ward__icon"/>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

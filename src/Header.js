@@ -40,7 +40,7 @@ const Header = () => {
         <div className="header__left">
           <div className="phone">
             <CallEndIcon className="call__end__icon" />
-            <span>962991305</span>
+            <span>999900000</span>
           </div>
         </div>
         <div className="header__middle">
@@ -71,12 +71,12 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    to="/nosotros"
+                    to="/about"
                     className={
-                      navigationActive === "nosotros" ? "mobile__active" : null
+                      navigationActive === "about" ? "mobile__active" : null
                     }
                   >
-                    Nosotros
+                    About
                   </Link>
                 </li>
               </ul>
@@ -120,12 +120,12 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/nosotros"
+                to="/about"
                 className={
-                  navigationActive === "nosotros" ? "descktop__active" : null
+                  navigationActive === "about" ? "descktop__active" : null
                 }
               >
-                Nosotros
+                About
               </Link>
             </li>
           </ul>
@@ -133,14 +133,14 @@ const Header = () => {
         <div className="header__right">
           <div className="phone">
             <CallEndIcon className="call__end__icon" />
-            <span>962991305</span>
+            <span>999900000</span>
           </div>
           <div className="socialmedia">
             <a href="#">
               <img src={instagram} alt="" />
             </a>
             <a href="#">
-              <img src={facebook} alt=""/>
+              <img src={facebook} alt="" />
             </a>
           </div>
         </div>

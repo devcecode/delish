@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10000;
+  z-index: 10000000;
 }
 
 
@@ -37,7 +37,7 @@
 
 .header .mobile__header .header__left .phone .call__end__icon{
   margin-right: .3em;
-  color: #e6ac42;
+  color: #e4a229;
 }
 
 .header .mobile__header .header__left .phone span{
@@ -207,7 +207,7 @@
   }
 
   .header .desktop__header .header__right .phone .call__end__icon{
-    color: #e6ac42;
+    color: #e4a229;
     margin-right: .5em;
   }
 
@@ -232,7 +232,7 @@
 }
 
 .mobile__active {
-  color: #e6ac42 !important;
+  color: #e4a229 !important;
 }
 
 .mobile__active:hover{
@@ -242,7 +242,7 @@
 
 .descktop__active {
   /* background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(254,251,245,1) 44%, rgba(230,172,66,1) 100%); */
-  color: #e6ac42 !important;
+  color: #e4a229 !important;
   position: relative;
 }
 
@@ -255,5 +255,16 @@
   width: 6px;
   border-radius: 50%;
   height: 6px;
-  background-color: #e6ac42;
+  background-color: #e4a229;
 }
+
+/* .descktop__active:before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #e4a229;
+} */

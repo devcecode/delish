@@ -12,11 +12,11 @@ const Delivery = () => {
           <div className="delivery__contact">
             <div className="delivery__contact__top">
               <h3>
-                <span>960247348</span>
+                <span>999900000</span>
                 <img src={whatsapp} alt="" />
               </h3>
-              <h2>Pidelo en todo chiclayo</h2>
-              <p>Te llevamos las zapatillas de tus sueños a cualquier lugar!</p>
+              <h2>Pídelo en todo Trujillo</h2>
+              <p>Te llevamos tu comida favorita a cualquier lugar!</p>
             </div>
             <div className="delivery__contact__bottom">
               <img src={delivery} className="delivery" alt="" />
