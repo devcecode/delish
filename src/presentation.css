@@ -17,7 +17,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  filter: blur(25px) contrast(90%);
+  filter: blur(25px) contrast(95%);
   overflow: hidden;
 }
 
@@ -39,6 +39,7 @@
 .presentation .presentation__container .presentation__content .presentation__content__container .presentation__description{
   position: relative;
   z-index: 100;
+  padding: .5em;
   padding: 3em 0 .5em 0;
 }
 
@@ -160,8 +161,8 @@
   }
 
   .presentation .presentation__container .presentation__content .presentation__content__container .presentation__description{
+    padding: 0;
     width: 50%;
-    padding: 0 0 0 12.5%;
   }
 
   .presentation .presentation__container .presentation__content .presentation__content__container .presentation__slide{
