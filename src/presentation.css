@@ -1,0 +1,178 @@
+.presentation {
+  /* background-color: tomato; */
+  margin-top: 52px;
+}
+
+.presentation .presentation__container {
+  width: 95%;
+  max-width: 1700px;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.presentation .presentation__container .presentation__back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  filter: blur(25px) contrast(90%);
+  overflow: hidden;
+}
+
+.presentation .presentation__container .presentation__back .presentation__back__container {
+  width: 100%;
+  height: 100%;
+  /* background-color: tomato; */
+  transform: scale(1.1);
+}
+
+.presentation .presentation__container .presentation__content {
+
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container{
+  
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__description{
+  position: relative;
+  z-index: 100;
+  padding: 3em 0 .5em 0;
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__description .presentation__title {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  display: none;
+  line-height: .4em;
+  margin-bottom: .7em;
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__description .presentation__message {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-bottom: .5em;
+  text-align: center;
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__description .presentation__stars {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media(min-width: 760px) {
+  .presentation .presentation__container .presentation__content .presentation__content__container .presentation__description .presentation__title {
+    display: block;
+    text-align: left;
+  }
+
+  .presentation .presentation__container .presentation__content .presentation__content__container .presentation__description .presentation__message {
+    text-align: left;
+  }
+
+  .presentation .presentation__container .presentation__content .presentation__content__container .presentation__description .presentation__stars {
+    justify-content: flex-start;
+  }
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__description .presentation__stars .star__icon {
+  color: yellow;
+  font-size: 2em;
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__slide{
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__slide .ir{
+  display: flex;
+  justify-content: center;
+  margin: 1.5em 0;
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__slide .ir a{
+  background-color: #e6ac42;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: .9em;
+  padding: .8em 1.5em;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 2em;
+  z-index: 1000;
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__slide .ir a .arrow__for__ward__icon {
+  margin-left: .4em;
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__slide .swiper-container {
+  padding: 2.5em 0;
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__slide .swiper-button-prev {
+  left: 0;
+  color: #ffffff;
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__slide .swiper-button-next {
+  right: 0;
+  color: #ffffff;
+}
+
+.swiper-pagination-bullets {
+  /* bottom: 0px !important; */
+}
+.swiper-pagination-bullet {
+  opacity: .5 !important;
+  background-color: #ffffff !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__slide .swiper__slide{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.presentation .presentation__container .presentation__content .presentation__content__container .presentation__slide img{
+  border-radius: .4em;
+  width: 50%;
+  max-width: 400px;
+  
+}
+
+
+
+@media(min-width: 760px) {
+  .presentation .presentation__container .presentation__content .presentation__content__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .presentation .presentation__container .presentation__content .presentation__content__container .presentation__description{
+    width: 50%;
+    padding: 0 0 0 12.5%;
+  }
+
+  .presentation .presentation__container .presentation__content .presentation__content__container .presentation__slide{
+    width: 50%;
+  }
+
+  .presentation .presentation__container .presentation__content .presentation__content__container .presentation__description .presentation__title {
+    font-size: 3.5em;
+  }
+
+  .presentation .presentation__container .presentation__content .presentation__content__container .presentation__description .presentation__stars .star__icon {
+    font-size: 2.5em;
+  }
+}

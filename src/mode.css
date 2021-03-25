@@ -1,0 +1,15 @@
+.mode {
+  margin: 3.4em 0;
+  /* background-color: tomato; */
+}
+@media(min-width: 760px) {
+  .mode {
+    margin: 4.5em 0 3em 0;
+  }
+  .mode .mode__container{
+    width: 90%;
+    max-width: 1700px;
+    margin: 0 auto;
+    display: flex;
+  }
+}
